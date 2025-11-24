@@ -45,7 +45,7 @@ const SectionProjects: React.FC = () => {
             rel="noreferrer"
             className="relative group bg-black/30 border border-green-900/60 hover:border-green-500/60 transition-all duration-300 rounded overflow-hidden block focus:outline-none focus:ring-2 focus:ring-green-500/60 focus:ring-offset-2 focus:ring-offset-green-950"
           >
-            {/* Kartin ust baslik seridi */}
+            {/* Kartın üst başlık şeridi */}
             <div className="bg-green-950/30 p-2 border-b border-green-900/50 flex justify-between items-center">
               <span className="font-mono text-xs text-green-600">ID: 00{p.id}</span>
               <div className="flex gap-1">
@@ -84,7 +84,7 @@ const SectionProjects: React.FC = () => {
               </div>
             </div>
 
-            {/* Dekoratif kose cizgileri */}
+            {/* Dekoratif köşe çizgileri */}
             <div className="absolute bottom-0 right-0 w-4 h-4 border-b border-r border-green-600 opacity-30 group-hover:opacity-100 transition-opacity"></div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-green-900/5 pointer-events-none"></div>
           </a>

@@ -1,6 +1,9 @@
 import React from 'react';
 
 const SectionAbout: React.FC = () => {
+  // GitHub Pages'de base yolu dikkate alarak profil görselini çöz
+  const profileSrc = `${import.meta.env.BASE_URL}profile.jpeg`;
+
   return (
     <div className="font-mono text-sm md:text-base text-green-300/80 my-4 animate-fade-in">
       <div className="bg-green-950/10 border border-green-900/50 p-6 rounded relative overflow-hidden">
@@ -12,7 +15,7 @@ const SectionAbout: React.FC = () => {
           <div className="flex items-center gap-4 border-b border-green-900/30 pb-4">
             <div className="w-16 h-16 rounded border border-green-800 bg-green-900/30 overflow-hidden shadow-[0_0_20px_-8px_rgba(74,222,128,0.8)]">
               <img
-                src="/profile.jpeg"
+                src={profileSrc}
                 alt="Hakkında profili"
                 className="w-full h-full object-cover"
                 loading="lazy"

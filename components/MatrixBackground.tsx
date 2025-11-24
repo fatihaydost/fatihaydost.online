@@ -13,7 +13,7 @@ const MatrixBackground: React.FC = () => {
     let width = (canvas.width = window.innerWidth);
     let height = (canvas.height = window.innerHeight);
 
-    // Katakana + Latin + rakam karışımı özel karakter seti
+    // Katakana + Latin + rakam karışımı karakter seti
     const chars = 'アァカサタナハマヤラワガギグゲゴザジズゼゾパピプペポ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const fontSize = 16;
     const columns = width / fontSize;
