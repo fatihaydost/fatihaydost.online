@@ -2,6 +2,10 @@
 
 Matrix yağmuru ve CRT efekti olan, komut tabanlı React/Vite portfolyo.
 
+
+<img width="1799" height="1009" alt="resim" src="https://github.com/user-attachments/assets/b5200e6d-b70d-49d4-a7f3-36e620e5bfd2" />
+
+
 ## Özellikler
 - Terminal üzerinden gezinme: `hakkinda`, `projeler`, `iletisim`, `yardim`, `temizle`.
 - Proje kartları GitHub bağlantılarına tıklanabilir.
